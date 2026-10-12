@@ -4,13 +4,13 @@
 
 ---
 
-## 📌 Descripción del Proyecto
+##  Descripción del Proyecto
 
 Este proyecto implementa y evalúa un **motor inteligente de triaje y resolución de reclamos** para una plataforma de comercio electrónico. Su objetivo es procesar mensajes de clientes, clasificar el nivel de urgencia y categoría, razonar internamente bajo políticas corporativas estrictas mediante *Chain-of-Thought* (CoT) y emitir respuestas en un formato **JSON estructurado** listo para su inserción directa en bases de datos empresariales.
 
 ---
 
-## 🏗️ Arquitectura del Pipeline en Dos Etapas Desacopladas
+##  Arquitectura del Pipeline en Dos Etapas Desacopladas
 
 En lugar de utilizar un único mega-prompt que sobrecargue el contexto del modelo y mezcle tareas, el sistema desacopla la ejecución en **dos sesiones independientes del LLM**, orquestadas secuencialmente por la función de Python `procesar_mensaje`:
 
@@ -48,7 +48,7 @@ En lugar de utilizar un único mega-prompt que sobrecargue el contexto del model
 
 ---
 
-## 📂 Estructura del Repositorio
+##  Estructura del Repositorio
 
 - `TP3_Resolucion.ipynb`: **Entregable principal**. Jupyter Notebook ejecutable estructurado en 5 secciones con salidas persistidas.
 - `TP3.md`: Enunciado formal y rúbrica de evaluación del Trabajo Práctico 3.
@@ -60,7 +60,7 @@ En lugar de utilizar un único mega-prompt que sobrecargue el contexto del model
 
 ---
 
-## 🚀 Requisitos y Ejecución
+##  Requisitos y Ejecución
 
 ### 1. Clonar el repositorio y preparar entorno virtual
 ```bash
